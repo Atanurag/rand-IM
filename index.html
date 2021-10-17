@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+	background-color: #f5f5f5;
+}
+
+		div{
+			
+margin-top: 44px;
+			margin-left:180px;
+				justify-content: center;
+				display:flex;
+				
+				
+				height:400px;
+				width:800px;
+			}
+		
+		img{border: 2px  solid #4a201b;
+			border-radius: 22px;
+			width:350px;
+			height:350px;
+		}
+
+
+button{
+font-size: 32px;
+	margin-left: 541px;
+ height: 34px;
+    width: 63px;
+    border: 0.1px solid red;
+				background-color: #d1ca62;
+				 border-radius: 5px;
+
+ border-radius: 5px;}
+
+
+
+
+
+
+
+		@media all and (max-width: 390px){
+body{
+	background-color: #f5f5f5;
+}
+			img{
+				border: 2px  solid #4a201b;
+			border-radius: 22px;
+			width:130px;
+			height:130px;
+		}
+			div{
+				margin-top: 22px;
+				margin-left: 50px;
+				height:190px;
+				width:190px;
+			}
+			button{
+				    border-radius: 5px;
+
+    background-color: #d1ca62;
+    margin-left: 133px;
+    height: 24px;
+    width: 23px;
+    border: 0.1px solid red;
+				background-color: #d1ca62;
+
+
+		}
+
+		}
+	</style>
+</head>
+<body ><div >
+	<img id="ww" />
+</div><button onclick="rand()">~</button>
+
+
+<script>
+	function ra() {
+	 return Math.floor(Math.random()*17);
+	}
+function rand() {
+	
+
+
+
+	var a=["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgRZ-8dgiOkvWfQMIN3F4AmxHD5WKYh2YLQA&usqp=CAU","https://images.wallpapersden.com/image/ws-trick-or-treat-fortnite_80131.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI4chzdMV_GdSsuikydFTkgacUk4nqcaAH3g&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuO9aOlsHBu6EtxWVooQBjHp8I-Nlek2I6w&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUDn-Ol6nmTzUElsvZba4qC6cGxbNrbnD-w&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS66EeVBELXd8Ei_r6RXEJ9FCisZnndVQHbHA&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ps8TZRyIWb6SoQdrElDc0BWnkwI9p0TiSQ&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEG_USxuk_MBeckpfuxJzhmrG4tXaLWn5mQ&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-gG8atkIq_XyqnPqE357tHX5cS4T6OCxCDw&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMIaC0rBtwj6nGUEHB0EJkYPj-jx6wzOfZg&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxROFCYDN6CQPPIC1UiHPsOWuAHATC3fHqDA&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yFnZmzrvpEZqyNtEwwsaLjHOpi80vzWPhg&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-33hW9gsfdNhGHsYJbnyGKvevxUokvYuyeg&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxDh1-Xpa3eNj_uq5OfxXbBvKyzF_sWbs-Q&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadi6Ojx4ybkUjTrJhxoyqEDtrjYhpyccWFA&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPo_QYjz2Ub3ITZP7kBVsNz8OVMhIdeCMA6Q&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_9fj1Dxk9xU5nNs7Ml3xK6JwgeZ6Ob8Arw&usqp=CAU"];
+	var e=ra();
+	var s=a[e]
+
+var q=document.getElementById('ww').src=s;
+	console.log(q);
+}
+
+
+</script>
+</body>
+</html>
